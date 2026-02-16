@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Copy this file to monitor.conf and edit with your settings
+
+# WHMCS Database Configuration
+WHMCS_DB_HOST="whmcs-server-ip"
+WHMCS_DB_NAME="whmcs"
+WHMCS_DB_USER="whmcs_user"
+WHMCS_DB_PASS="your_secure_password"
+WHMCS_DB_PORT="3306"
+
+
+# Add servers here
+declare -A SERVERS=(
+    ["server1-name"]="server1-ip:root:password:cpanel"
+    ["server2-name"]="server2-ip:root:password:cpanel"
+    ["server3-name"]="server3-ip:root:password:cpanel"
+)
+
+# SSH Configuration
+SSH_KEY_PATH="/root/.ssh/monitoring_key"
+SSH_TIMEOUT="10"
+
+# Monitoring Settings
+CHECK_INTERVAL="15"
+SITES_PER_BATCH="50"
+DELAY_BETWEEN_CHECKS="2"
+FAILURE_THRESHOLD="3"
+
+# Email Reports
+REPORT_EMAIL="support@yourcompany.com"
+REPORT_FREQUENCY="hourly"
+
+# Logging
+LOG_LEVEL="INFO"
+LOG_RETENTION_DAYS="30"
