@@ -6,7 +6,7 @@
 WHMCS_DB_HOST="whmcs-server-ip"
 WHMCS_DB_NAME="whmcs"
 WHMCS_DB_USER="whmcs_user"
-WHMCS_DB_PASS="your_secure_password"
+WHMCS_DB_PASS="secure_password"
 WHMCS_DB_PORT="3306"
 
 

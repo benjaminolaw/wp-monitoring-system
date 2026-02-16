@@ -1,0 +1,8 @@
+# Force LF for bash scripts
+*.sh text eol=lf
+
+# Keep PHP LF (safer for Linux servers)
+*.php text eol=lf
+
+# Default for other text files
+* text=auto
