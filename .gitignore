@@ -1,0 +1,38 @@
+# Logs
+logs/
+*.log
+
+# Runtime state / cache
+state/domain_cache/
+state/*.json
+state/*.cache
+
+# Config secrets
+config/monitor.conf
+
+# Environment files
+.env
+.env.*
+
+# SSH keys / private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# WHMCS API credentials if stored locally
+whmcs_api.json
+
+# Temp files
+*.tmp
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Node (if you later add tools)
+node_modules/
