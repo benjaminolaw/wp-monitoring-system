@@ -1,15 +1,15 @@
 # Logs
-logs/
+opt/wp-monitor/logs/
 *.log
 #
 
 # Runtime state / cache
-state/domain_cache/
-state/*.json
-state/*.cache
+opt/wp-monitor/state/domain_cache/
+opt/wp-monitor/state/*.json
+opt/wp-monitor/state/*.cache
 
 # Config secrets
-config/monitor.conf
+opt/wp-monitor/config/monitor.conf
 
 # Environment files
 .env
