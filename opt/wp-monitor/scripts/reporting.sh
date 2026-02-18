@@ -151,7 +151,7 @@ EOF
     </table>
     
     <div class="footer">
-        <p>This is an automated report from your WordPress Monitoring System.</p>
+        <p>This is an automated report from HarmonWeb AI Monitoring System.</p>
         <p>To configure alert settings, visit: https://client.harmonweb.com/clientarea.php</p>
     </div>
 </body>
@@ -161,7 +161,8 @@ EOF
     # Generate plain text version
     {
         echo "WORDPRESS MONITOR ALERT REPORT"
-        echo "Generated: $(date '+%Y-%m-%d %H:%M:%S')"
+        echo "
+        Generated: $(date '+%Y-%m-%d %H:%M:%S')"
         echo ""
         echo "SUMMARY"
         echo "======="
